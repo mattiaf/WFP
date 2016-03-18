@@ -1,5 +1,7 @@
 # Additional data available for WFP hackaton
 
+I mark with a *!* data that I believe is most promising.
+
 ## World Bank
 http://datatopics.worldbank.org/consumption/home 
 
@@ -15,20 +17,35 @@ Many datasets on food prices, food security, livestock, etc
 Preliminary exploration here:
 https://github.com/mattiaf/WFP/blob/master/OtherData/FAOStat/FAO.ipynb
 
-_Food prices_
+_Food prices_ 
 
 Monthly prices: not enough available data.
 
 Year by year data: 1997 to 2014, number of NaNs depends on country.
 
-_Food security_
+_Food security_ *!*
 
 Yearly data on Average protein supply, Prevalence of anaemia, Percentage of adults who are underweight, etc.
 
-Depending on category, most recent data between 2011 and 2014
+Depending on category, most recent data between 2011 and 2013
 
-## OECD / 1
+_Livestock_ *!*
+
+Yearly data on number of different animals.
+
+Depending on category, most recent data between 2011 and 2013
+
+
+## OECD / 1 
 http://www.oecd.org/dac/stats/idsonline.htm
+
+Data on international aid. *!*
+
+I query amount of dollars received per recipient country from http://stats.oecd.org/qwids/
+
+Prelimiary exploration at https://github.com/mattiaf/WFP/blob/master/OtherData/OECD/OECD.ipynb
+
+
 
 ## OECD / 2
 https://data.oecd.org/api/
