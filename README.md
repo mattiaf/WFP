@@ -1,6 +1,6 @@
 # Additional data available for WFP hackaton
 
-I mark with a *!* data that I believe is most promising.
+I mark with a :+1: the data that I believe is most promising.
 
 ## World Bank
 http://datatopics.worldbank.org/consumption/home 
@@ -23,13 +23,13 @@ Monthly prices: not enough available data.
 
 Year by year data: 1997 to 2014, number of NaNs depends on country.
 
-_Food security_ *!*
+_Food security_  :+1:
 
 Yearly data on Average protein supply, Prevalence of anaemia, Percentage of adults who are underweight, etc.
 
 Depending on category, most recent data between 2011 and 2013
 
-_Livestock_ *!*
+_Livestock_ :+1:
 
 Yearly data on number of different animals.
 
@@ -39,7 +39,7 @@ Depending on category, most recent data between 2011 and 2013
 ## OECD / 1 
 http://www.oecd.org/dac/stats/idsonline.htm
 
-Data on international aid. *!*
+Data on international aid. :+1:
 
 I query amount of dollars received per recipient country from http://stats.oecd.org/qwids/
 
@@ -55,7 +55,8 @@ to be done
 ## EFSA
 http://www.efsa.europa.eu/en/datexfoodcdb/datexfooddb
 
-## USDA
+## USDA 
+
 http://www.ers.usda.gov/data-products.aspx 
 
 ## NL Overheid
