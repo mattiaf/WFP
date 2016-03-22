@@ -1,6 +1,8 @@
 # Additional data available for WFP hackaton
 
 I mark with a :+1: the data that I believe is the most promising.
+Unless mentioned, data is easy to handle (Kb or Mb size)
+
 
 ## World Bank
 http://datatopics.worldbank.org/consumption/home 
@@ -52,7 +54,8 @@ You can see which countries got more aid and when. Potentially total aid can be 
 ## OECD / 2
 https://data.oecd.org/api/
 
-*to be done*
+Many datasets, on many topics.
+The ones that can be more interesting are food prices (very similar to the FAO one), and the development aid data already coveed by the previous link, still on OECD.
 
 ## EFSA
 http://www.efsa.europa.eu/en/datexfoodcdb/datexfooddb
@@ -71,5 +74,20 @@ A bit of exploration here: https://github.com/mattiaf/WFP/blob/master/OtherData/
 
 ## NL Overheid
 https://www.rijksoverheid.nl/opendata/ontwikkelingssamenwerking 
+*passed to Maarten*
 
-*to be done*
+
+## GDELT :+1:
+*from Maarten*
+Interesting dataset, listing events on the news in different country. 
+
+Raw data is large (1Gb) and full of events that are clearly not relevant.
+
+The SQL form allows you to select events in one single country, as in https://github.com/mattiaf/WFP/blob/master/OtherData/GDELT/GDELT.ipynb
+
+The possible idea is that in 3rd world countries a large number of events correlates with a crysis, therefore *possibly* with hunger.
+
+Unfortunately it's not straight-forward to select only events relevant to the context. This is the code they use to categorize events:
+http://gdeltproject.org/data/lookups/CAMEO.eventcodes.txt
+
+
